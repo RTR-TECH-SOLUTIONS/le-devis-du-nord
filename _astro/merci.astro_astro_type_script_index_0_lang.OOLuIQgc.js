@@ -1,0 +1,1 @@
+import{a as e,i as t,s as n}from"./consent.tJZi5MyO.js";var r=sessionStorage.getItem(e);r!==null&&(sessionStorage.removeItem(e),n(`lead_conversion`,{work:r}),t());

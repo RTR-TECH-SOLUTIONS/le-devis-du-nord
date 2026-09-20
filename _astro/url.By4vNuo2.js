@@ -1,0 +1,1 @@
+var e=`/`.replace(/\/$/,``);function t(t){return t.startsWith(`/`)?e+t:t}export{t};
