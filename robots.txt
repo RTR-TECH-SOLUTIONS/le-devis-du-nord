@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# ATENŢIE la ce se pune aici.
+# /merci/, /demande/* şi /chantiers/ NU se blochează, deşi nu vrem să apară în Google:
+# ele poartă deja „noindex" în pagină, iar ca Google să vadă eticheta trebuie să poată
+# citi pagina. Blocată în robots.txt, adresa poate ajunge totuşi în index (doar URL-ul),
+# fără ca noindexul să fie văzut vreodată. Blocajul ar obţine exact pe dos.
+#
+# /admin/ se blochează, pentru că acolo nu vrem nici măcar vizite de roboţi. Nu e legat
+# din nicio pagină, deci nu riscă să fie indexat din linkuri.
+Disallow: /admin/
+
+Sitemap: https://devisrenovnord.fr/sitemap.xml
